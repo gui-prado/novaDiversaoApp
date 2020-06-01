@@ -1,0 +1,67 @@
+ion-title {
+    font-family: "Lobster";
+
+    span {
+        font-size: 15px;
+    }
+}
+
+.capa {
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    border: solid 3px;
+    border-color: black;
+    border-radius: 20px;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+ion-grid {
+    .botao {
+        margin-left: 20px;
+        margin-top: 12px;
+        width: 46px;
+        height: 46px;
+    }
+}
+
+.tipo {
+    font-family: "Lobster";
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+ion-icon {
+    font-size: 128px;
+}
+
+.emisora {
+    padding-left: 27px;
+
+    &:hover {
+        transform: scale(1.5);
+    }
+}
+
+.assistir {
+    padding-left: 10px;
+}
+
+#titulo {
+    font-family: "Lobster";
+    padding-left: 15px;
+}
+
+#texto {
+    font-family: "Lobster";
+    padding: 15px;
+    padding-top: 0;
+}
